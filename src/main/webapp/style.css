@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0e4ff 0%, #e0f7fa 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+form {
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"] {
+    background: #8e44ad;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #732d91;
+}
+
+h1, h3, p {
+    margin: 0 0 10px;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8e44ad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    color: #732d91;
+}
